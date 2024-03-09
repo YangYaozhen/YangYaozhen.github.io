@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layout</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="grid-item item1">
+      1
+      <div class="handler">
+        <span onclick="handleMergeLR(1)">Merge Right</span>
+        <span onclick="handleMergeUD(1)">Merge Down</span>
+        <span onclick="maximum(1)">Maximum</span>
+        <span onclick="split()">Split</span>
+      </div>
+    </div>
+    <div class="grid-item item2">
+      2
+      <div class="handler">
+        <span onclick="handleMergeLR(2)">Merge Left</span>
+        <span onclick="handleMergeUD(2)">Merge Down</span>
+        <span onclick="maximum(2)">Maximum</span>
+        <span onclick="split()">Split</span>
+      </div>
+    </div>
+    <div class="grid-item item3">
+      3
+      <div class="handler">
+        <span onclick="handleMergeLR(3)">Merge Right</span>
+        <span onclick="handleMergeUD(3)">Merge Up</span>
+        <span onclick="maximum(3)">Maximum</span>
+        <span onclick="split()">Split</span>
+      </div>
+    </div>
+    <div class="grid-item item4">
+      4
+      <div class="handler">
+        <span onclick="handleMergeLR(4)">Merge Left</span>
+        <span onclick="handleMergeUD(4)">Merge Up</span>
+        <span onclick="maximum(4)">Maximum</span>
+        <span onclick="split()">Split</span>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
